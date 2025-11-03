@@ -1,90 +1,155 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Salifou Diallo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f9;
-      color: #333;
-    }
-    header {
-      background: #2c3e50;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 { margin: 0; }
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #2c3e50;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #2c3e50;
-      color: #fff;
-      margin-top: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio – Salifou Diallo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fb;
+            margin: 0;
+            padding: 0;
+            color: #1c1c1c;
+        }
+
+        header {
+            background-color: #243447;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #dcdcdc;
+        }
+
+        section {
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 850px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            color: #243447;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+            line-height: 1.6em;
+        }
+
+        a {
+            color: #0078ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        .emoji {
+            margin-right: 6px;
+        }
+
+        .contact {
+            line-height: 1.8em;
+        }
+    </style>
 </head>
+
 <body>
 
-  <header>
-    <h1>Portfolio - Salifou Diallo</h1>
-    <p>Finissant en Informatique (UQAC, Hiver 2026) - Cybersécurité défensive</p>
-  </header>
+<header>
+    <h1>Portfolio – Salifou Diallo</h1>
+    <p>Finissant en informatique (UQAC, Hiver 2026) – Cybersécurité défensive</p>
+</header>
 
-  <section>
+<section>
     <h2>🚀 Projets académiques</h2>
     <ul>
-      <li><b>Application web – Gestion de librairie</b> (Flask, Peewee, SQLite)  
-        → <a href="https://github.com/SalifouDiallo/Projet-final">Voir le code</a></li>
-      <li><b>Projet RDO – Réseaux d’ordinateurs</b> (Java, Sockets TCP/IP)  
-        → <a href="https://github.com/SalifouDiallo/Projet1">Voir le code</a></li>
-      <li><b>Déploiement Cloud</b> (Azure, Docker, Event Hub, CosmosDB, CI/CD)</li>
-      <li><b>Algorithme génétique Flow Shop</b> (C++)</li>
+        <li>
+            <strong>Application web – Gestion de librairie</strong>  
+            <br> <em>(Flask, Peewee, SQLite)</em>  
+            → <a href="https://github.com/SalifouDiallo/bookshop_optionC_final" target="_blank">Voir le code</a>
+        </li>
+        <li>
+            <strong>Projet en cybersécurité – Algorithme de chaînes de vulnérabilités</strong>  
+            <br> <em>(Python, CVSS, analyse de risque)</em>  
+            → <a href="https://github.com/SalifouDiallo/chain_scoring" target="_blank">Voir le code</a>
+        </li>
+        <li>
+            <strong>Déploiement Cloud – Infonuagique</strong>  
+            <br> <em>(Azure, Docker, CosmosDB, Event Hub, CI/CD)</em>  
+            → <a href="https://github.com/SalifouDiallo/azure_microservices_project" target="_blank">Voir le code</a>
+        </li>
+        <li>
+            <strong>Optimisation Flow Shop – Algorithme génétique</strong>  
+            <br> <em>(C++)</em>  
+            → <a href="https://github.com/SalifouDiallo/flowshop_GA" target="_blank">Voir le code</a>
+        </li>
+        <li>
+            <strong>Projet RDO – Réseaux d’ordinateurs</strong>  
+            <br> <em>(Java, TCP/IP, multithreading)</em>  
+            → <a href="https://github.com/SalifouDiallo/RDO_Project" target="_blank">Voir le code</a>
+        </li>
     </ul>
-  </section>
+</section>
 
-  <section>
-    <h2>🛠️ Compétences techniques</h2>
-    <p>C++, Python, Java, JavaScript, R, Flask, HTML, CSS, Bootstrap, REST API, SQLite, PostgreSQL, CosmosDB, Azure, Docker, CI/CD, Git/GitHub.</p>
-  </section>
+<section>
+    <h2>🧠 Compétences techniques</h2>
+    <p>
+        <strong>Langages :</strong> Python, Java, C++, SQL, HTML5, CSS3, JavaScript<br>
+        <strong>Frameworks / Outils :</strong> Flask, Peewee, Docker, Git/GitHub, VS Code, RStudio, Visual Studio<br>
+        <strong>Bases de données :</strong> SQLite, PostgreSQL, CosmosDB, MySQL<br>
+        <strong>Cloud & DevOps :</strong> Azure (Event Hub, CosmosDB, Key Vault, CI/CD)<br>
+        <strong>Cybersécurité :</strong> Sécurité applicative, gestion des accès, détection de vulnérabilités
+    </p>
+</section>
 
-  <section>
-    <h2>📫 Contact</h2>
-    <p>Email : <a href="mailto:diallosalifou86@gmail.com">diallosalifou86@gmail.com</a><br>
-       LinkedIn : <a href="https://www.linkedin.com/in/ton-lien">Mon profil</a></p>
-  </section>
+<section>
+    <h2>💬 Compétences interpersonnelles</h2>
+    <p>
+        Travail d’équipe • Autonomie • Rigueur • Curiosité technologique • Communication claire • Sens de l’analyse
+    </p>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Salifou Diallo - Portfolio</p>
-  </footer>
+<section>
+    <h2>📫 Contactez-moi</h2>
+    <div class="contact">
+        📧 <strong>Courriel :</strong> <a href="mailto:diallosalifou86@gmail.com">diallosalifou86@gmail.com</a><br>
+        🔗 <strong>LinkedIn :</strong> <a href="https://linkedin.com/in/salifou-diallo-3117702b2" target="_blank">linkedin.com/in/salifou-diallo-3117702b2</a><br>
+        🌐 <strong>GitHub :</strong> <a href="https://github.com/SalifouDiallo" target="_blank">github.com/SalifouDiallo</a><br>
+        🏙️ <strong>Localisation :</strong> Chicoutimi (Québec), Canada
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Salifou Diallo — Portfolio académique et professionnel</p>
+</footer>
 
 </body>
 </html>
