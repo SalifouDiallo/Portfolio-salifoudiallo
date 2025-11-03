@@ -70,10 +70,10 @@ Communication claire • Gestion du temps • Sens de l’analyse et résolution
 
 ---
 
-## 📫 Contact
-- **📧 Courriel :** [diallosalifou86@gmail.com](mailto:diallosalifou86@gmail.com)  
-- **🔗 LinkedIn :** [linkedin.com/in/salifou-diallo](https://linkedin.com/in/salifou-diallo) *(à ajouter si tu l’as)*  
-- **🏙️ Localisation :** Chicoutimi (Québec), Canada
+## 📫 Contactez-moi
+📧 **Courriel :** [diallosalifou86@gmail.com](mailto:diallosalifou86@gmail.com)  
+🔗 **LinkedIn :** [linkedin.com/in/salifou-diallo-3117702b2](https://linkedin.com/in/salifou-diallo-3117702b2)  
+🏙️ **Localisation :** Chicoutimi (Québec), Canada
 
 ---
 
